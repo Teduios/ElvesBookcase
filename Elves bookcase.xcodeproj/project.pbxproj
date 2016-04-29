@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B00B80A1CB3803D00C0B1B9 /* LDBookstoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00B8091CB3803D00C0B1B9 /* LDBookstoreTableViewController.m */; };
+		6B00B8931CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00B8921CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m */; };
+		6B00B8AB1CB3E8F700C0B1B9 /* LDSearchBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00B8AA1CB3E8F700C0B1B9 /* LDSearchBookCell.m */; };
+		6B02EF1B1CC0BFDD00A66B23 /* LDReadMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B02EF1A1CC0BFDD00A66B23 /* LDReadMainViewController.m */; };
+		6B69800D1CBC833900FCB766 /* LDBookDetailsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B69800C1CBC833900FCB766 /* LDBookDetailsViewModel.m */; };
+		6B6980111CBCC2DD00FCB766 /* BookClass.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B6980101CBCC2DD00FCB766 /* BookClass.plist */; };
+		6B6980131CBCE58F00FCB766 /* AllBooksID.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B6980121CBCE58F00FCB766 /* AllBooksID.plist */; };
+		6B7A5C8F1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A5C8E1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m */; };
+		6B7A5C951CB79238004AD7D1 /* LDBookClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A5C941CB79238004AD7D1 /* LDBookClassCell.m */; };
+		6B7A5C981CB79756004AD7D1 /* LDBookcaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A5C971CB79756004AD7D1 /* LDBookcaseCell.m */; };
+		6B7A5C9B1CB79F27004AD7D1 /* LDBookClassTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A5C9A1CB79F27004AD7D1 /* LDBookClassTableViewController.m */; };
+		6B7A5C9E1CB7B132004AD7D1 /* UIView+LDHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7A5C9D1CB7B132004AD7D1 /* UIView+LDHUD.m */; };
+		6B8B23371CB610EF002A80D4 /* LDNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B23361CB610EF002A80D4 /* LDNetManager.m */; };
+		6B8B233A1CB6178B002A80D4 /* NSObject+LDNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B23391CB6178B002A80D4 /* NSObject+LDNetWorking.m */; };
+		6B8B233D1CB628D8002A80D4 /* NSObject+LDParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B233C1CB628D8002A80D4 /* NSObject+LDParse.m */; };
+		6B8B23401CB683CA002A80D4 /* LDBookListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B233F1CB683CA002A80D4 /* LDBookListViewModel.m */; };
+		6B8DEBE11CBBCFF900416A27 /* LDBookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DEBE01CBBCFF900416A27 /* LDBookDetailsViewController.m */; };
+		6B8FA9141CA954BA00EECDD1 /* LDBookcaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FA9131CA954BA00EECDD1 /* LDBookcaseTableViewController.m */; };
+		6B9FAD8D1CB52FF4002AC8F4 /* LDBookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FAD8C1CB52FF4002AC8F4 /* LDBookListModel.m */; };
+		6B9FAD901CB5304D002AC8F4 /* LDBookDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FAD8F1CB5304D002AC8F4 /* LDBookDetailsModel.m */; };
+		6BD0EFD51CBDE34500A1B0CB /* LDBookcaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */; };
+		6BD0EFD81CBE47C300A1B0CB /* LDBookcaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0EFD71CBE47C300A1B0CB /* LDBookcaseModel.m */; };
+		6BDE07D21CC4D39A0021EE3F /* LDPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE07D11CC4D39A0021EE3F /* LDPageContentViewController.m */; };
+		6BDE07D51CC4D3EC0021EE3F /* pagingContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE07D41CC4D3EC0021EE3F /* pagingContent.m */; };
+		6BE0AF331CA9492C00916C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF321CA9492C00916C58 /* main.m */; };
+		6BE0AF361CA9492C00916C58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF351CA9492C00916C58 /* AppDelegate.m */; };
+		6BE0AF3C1CA9492D00916C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0AF3A1CA9492D00916C58 /* Main.storyboard */; };
+		6BE0AF3E1CA9492D00916C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0AF3D1CA9492D00916C58 /* Assets.xcassets */; };
+		6BE0AF411CA9492D00916C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0AF3F1CA9492D00916C58 /* LaunchScreen.storyboard */; };
+		6BE0AF4C1CA9492D00916C58 /* Elves_bookcaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF4B1CA9492D00916C58 /* Elves_bookcaseTests.m */; };
+		6BE0AF571CA9492D00916C58 /* Elves_bookcaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF561CA9492D00916C58 /* Elves_bookcaseUITests.m */; };
+		6BE0AF761CA949FB00916C58 /* LDNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF6F1CA949FB00916C58 /* LDNaviViewController.m */; };
+		6BE0AF781CA949FB00916C58 /* LDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF731CA949FB00916C58 /* LDTabBarViewController.m */; };
+		6BFB27571CC619A4000C5A99 /* LDBookDirectoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */; };
+		6BFB275A1CC625D7000C5A99 /* LDBookDirectoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */; };
+		8701D76C04D5C9343278F0E9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 409C143E555CF6D44F753494 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BE0AF481CA9492D00916C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE0AF261CA9492C00916C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE0AF2D1CA9492C00916C58;
+			remoteInfo = "Elves bookcase";
+		};
+		6BE0AF531CA9492D00916C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE0AF261CA9492C00916C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE0AF2D1CA9492C00916C58;
+			remoteInfo = "Elves bookcase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409C143E555CF6D44F753494 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B00B8081CB3803D00C0B1B9 /* LDBookstoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookstoreTableViewController.h; sourceTree = "<group>"; };
+		6B00B8091CB3803D00C0B1B9 /* LDBookstoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookstoreTableViewController.m; sourceTree = "<group>"; };
+		6B00B8911CB3DCB100C0B1B9 /* LDSearchBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSearchBookTableViewController.h; sourceTree = "<group>"; };
+		6B00B8921CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSearchBookTableViewController.m; sourceTree = "<group>"; };
+		6B00B8A91CB3E8F700C0B1B9 /* LDSearchBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSearchBookCell.h; sourceTree = "<group>"; };
+		6B00B8AA1CB3E8F700C0B1B9 /* LDSearchBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSearchBookCell.m; sourceTree = "<group>"; };
+		6B02EF191CC0BFDD00A66B23 /* LDReadMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDReadMainViewController.h; sourceTree = "<group>"; };
+		6B02EF1A1CC0BFDD00A66B23 /* LDReadMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDReadMainViewController.m; sourceTree = "<group>"; };
+		6B69800B1CBC833900FCB766 /* LDBookDetailsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDetailsViewModel.h; sourceTree = "<group>"; };
+		6B69800C1CBC833900FCB766 /* LDBookDetailsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDetailsViewModel.m; sourceTree = "<group>"; };
+		6B6980101CBCC2DD00FCB766 /* BookClass.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookClass.plist; sourceTree = "<group>"; };
+		6B6980121CBCE58F00FCB766 /* AllBooksID.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AllBooksID.plist; sourceTree = "<group>"; };
+		6B7A5C8D1CB787C4004AD7D1 /* UIScrollView+LDRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LDRefresh.h"; sourceTree = "<group>"; };
+		6B7A5C8E1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LDRefresh.m"; sourceTree = "<group>"; };
+		6B7A5C931CB79238004AD7D1 /* LDBookClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookClassCell.h; sourceTree = "<group>"; };
+		6B7A5C941CB79238004AD7D1 /* LDBookClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookClassCell.m; sourceTree = "<group>"; };
+		6B7A5C961CB79756004AD7D1 /* LDBookcaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseCell.h; sourceTree = "<group>"; };
+		6B7A5C971CB79756004AD7D1 /* LDBookcaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookcaseCell.m; sourceTree = "<group>"; };
+		6B7A5C991CB79F27004AD7D1 /* LDBookClassTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookClassTableViewController.h; sourceTree = "<group>"; };
+		6B7A5C9A1CB79F27004AD7D1 /* LDBookClassTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookClassTableViewController.m; sourceTree = "<group>"; };
+		6B7A5C9C1CB7B132004AD7D1 /* UIView+LDHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LDHUD.h"; sourceTree = "<group>"; };
+		6B7A5C9D1CB7B132004AD7D1 /* UIView+LDHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LDHUD.m"; sourceTree = "<group>"; };
+		6B8B23351CB610EF002A80D4 /* LDNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetManager.h; sourceTree = "<group>"; };
+		6B8B23361CB610EF002A80D4 /* LDNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetManager.m; sourceTree = "<group>"; };
+		6B8B23381CB6178B002A80D4 /* NSObject+LDNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LDNetWorking.h"; sourceTree = "<group>"; };
+		6B8B23391CB6178B002A80D4 /* NSObject+LDNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LDNetWorking.m"; sourceTree = "<group>"; };
+		6B8B233B1CB628D8002A80D4 /* NSObject+LDParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LDParse.h"; sourceTree = "<group>"; };
+		6B8B233C1CB628D8002A80D4 /* NSObject+LDParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LDParse.m"; sourceTree = "<group>"; };
+		6B8B233E1CB683CA002A80D4 /* LDBookListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookListViewModel.h; sourceTree = "<group>"; };
+		6B8B233F1CB683CA002A80D4 /* LDBookListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookListViewModel.m; sourceTree = "<group>"; };
+		6B8DEBDF1CBBCFF900416A27 /* LDBookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDetailsViewController.h; sourceTree = "<group>"; };
+		6B8DEBE01CBBCFF900416A27 /* LDBookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDetailsViewController.m; sourceTree = "<group>"; };
+		6B8FA9121CA954BA00EECDD1 /* LDBookcaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseTableViewController.h; sourceTree = "<group>"; };
+		6B8FA9131CA954BA00EECDD1 /* LDBookcaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookcaseTableViewController.m; sourceTree = "<group>"; };
+		6B8FA9161CA958F200EECDD1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6B8FA9171CA9592F00EECDD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B9FAD8B1CB52FF4002AC8F4 /* LDBookListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookListModel.h; sourceTree = "<group>"; };
+		6B9FAD8C1CB52FF4002AC8F4 /* LDBookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookListModel.m; sourceTree = "<group>"; };
+		6B9FAD8E1CB5304D002AC8F4 /* LDBookDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDetailsModel.h; sourceTree = "<group>"; };
+		6B9FAD8F1CB5304D002AC8F4 /* LDBookDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDetailsModel.m; sourceTree = "<group>"; };
+		6BD0EFD31CBDE34500A1B0CB /* LDBookcaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseViewModel.h; sourceTree = "<group>"; };
+		6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookcaseViewModel.m; sourceTree = "<group>"; };
+		6BD0EFD61CBE47C300A1B0CB /* LDBookcaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseModel.h; sourceTree = "<group>"; };
+		6BD0EFD71CBE47C300A1B0CB /* LDBookcaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookcaseModel.m; sourceTree = "<group>"; };
+		6BDE07D01CC4D39A0021EE3F /* LDPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDPageContentViewController.h; sourceTree = "<group>"; };
+		6BDE07D11CC4D39A0021EE3F /* LDPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPageContentViewController.m; sourceTree = "<group>"; };
+		6BDE07D31CC4D3EC0021EE3F /* pagingContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pagingContent.h; sourceTree = "<group>"; };
+		6BDE07D41CC4D3EC0021EE3F /* pagingContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pagingContent.m; sourceTree = "<group>"; };
+		6BE0AF2E1CA9492C00916C58 /* Elves bookcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elves bookcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE0AF321CA9492C00916C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BE0AF341CA9492C00916C58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BE0AF351CA9492C00916C58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BE0AF3B1CA9492D00916C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE0AF3D1CA9492D00916C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		6BE0AF401CA9492D00916C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE0AF421CA9492D00916C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE0AF471CA9492D00916C58 /* Elves bookcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elves bookcaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE0AF4B1CA9492D00916C58 /* Elves_bookcaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elves_bookcaseTests.m; sourceTree = "<group>"; };
+		6BE0AF4D1CA9492D00916C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE0AF521CA9492D00916C58 /* Elves bookcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elves bookcaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE0AF561CA9492D00916C58 /* Elves_bookcaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elves_bookcaseUITests.m; sourceTree = "<group>"; };
+		6BE0AF581CA9492D00916C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE0AF6E1CA949FB00916C58 /* LDNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNaviViewController.h; sourceTree = "<group>"; };
+		6BE0AF6F1CA949FB00916C58 /* LDNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNaviViewController.m; sourceTree = "<group>"; };
+		6BE0AF721CA949FB00916C58 /* LDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabBarViewController.h; sourceTree = "<group>"; };
+		6BE0AF731CA949FB00916C58 /* LDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabBarViewController.m; sourceTree = "<group>"; };
+		6BFB27551CC619A4000C5A99 /* LDBookDirectoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDirectoryViewModel.h; sourceTree = "<group>"; };
+		6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDirectoryViewModel.m; sourceTree = "<group>"; };
+		6BFB27581CC625D7000C5A99 /* LDBookDirectoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDirectoryCell.h; sourceTree = "<group>"; };
+		6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDirectoryCell.m; sourceTree = "<group>"; };
+		792290C83EBE6DF2C9BBC975 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DFA177C8234C5E176EE10AFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE0AF2B1CA9492C00916C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8701D76C04D5C9343278F0E9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF441CA9492D00916C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF4F1CA9492D00916C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4E9262CDF8F17413440B7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA177C8234C5E176EE10AFF /* Pods.debug.xcconfig */,
+				792290C83EBE6DF2C9BBC975 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		108EB253F0AD7F84EE133A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				409C143E555CF6D44F753494 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B00B7B81CAE436B00C0B1B9 /* 书柜 */ = {
+			isa = PBXGroup;
+			children = (
+				6B02EF181CC0BFA000A66B23 /* 阅读 */,
+				6B8FA9121CA954BA00EECDD1 /* LDBookcaseTableViewController.h */,
+				6B8FA9131CA954BA00EECDD1 /* LDBookcaseTableViewController.m */,
+			);
+			name = "书柜";
+			sourceTree = "<group>";
+		};
+		6B00B7B91CAE438500C0B1B9 /* 书城 */ = {
+			isa = PBXGroup;
+			children = (
+				6B00B8081CB3803D00C0B1B9 /* LDBookstoreTableViewController.h */,
+				6B00B8091CB3803D00C0B1B9 /* LDBookstoreTableViewController.m */,
+				6B7A5C991CB79F27004AD7D1 /* LDBookClassTableViewController.h */,
+				6B7A5C9A1CB79F27004AD7D1 /* LDBookClassTableViewController.m */,
+			);
+			name = "书城";
+			sourceTree = "<group>";
+		};
+		6B00B7BA1CAE438C00C0B1B9 /* 搜书 */ = {
+			isa = PBXGroup;
+			children = (
+				6B00B8911CB3DCB100C0B1B9 /* LDSearchBookTableViewController.h */,
+				6B00B8921CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m */,
+			);
+			name = "搜书";
+			sourceTree = "<group>";
+		};
+		6B02EF171CC082F200A66B23 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE07D31CC4D3EC0021EE3F /* pagingContent.h */,
+				6BDE07D41CC4D3EC0021EE3F /* pagingContent.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6B02EF181CC0BFA000A66B23 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				6B02EF191CC0BFDD00A66B23 /* LDReadMainViewController.h */,
+				6B02EF1A1CC0BFDD00A66B23 /* LDReadMainViewController.m */,
+				6BDE07D01CC4D39A0021EE3F /* LDPageContentViewController.h */,
+				6BDE07D11CC4D39A0021EE3F /* LDPageContentViewController.m */,
+			);
+			name = "阅读";
+			sourceTree = "<group>";
+		};
+		6B8DEBDB1CBBC5FF00416A27 /* 书籍详情 */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DEBDF1CBBCFF900416A27 /* LDBookDetailsViewController.h */,
+				6B8DEBE01CBBCFF900416A27 /* LDBookDetailsViewController.m */,
+			);
+			name = "书籍详情";
+			sourceTree = "<group>";
+		};
+		6BE0AF251CA9492C00916C58 = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF301CA9492C00916C58 /* Elves bookcase */,
+				6BE0AF4A1CA9492D00916C58 /* Elves bookcaseTests */,
+				6BE0AF551CA9492D00916C58 /* Elves bookcaseUITests */,
+				6BE0AF2F1CA9492C00916C58 /* Products */,
+				0A4E9262CDF8F17413440B7C /* Pods */,
+				108EB253F0AD7F84EE133A3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE0AF2F1CA9492C00916C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF2E1CA9492C00916C58 /* Elves bookcase.app */,
+				6BE0AF471CA9492D00916C58 /* Elves bookcaseTests.xctest */,
+				6BE0AF521CA9492D00916C58 /* Elves bookcaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE0AF301CA9492C00916C58 /* Elves bookcase */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF341CA9492C00916C58 /* AppDelegate.h */,
+				6BE0AF351CA9492C00916C58 /* AppDelegate.m */,
+				6B02EF171CC082F200A66B23 /* Tools */,
+				6BE0AF641CA949FB00916C58 /* Category */,
+				6BE0AF671CA949FB00916C58 /* Define */,
+				6BE0AF681CA949FB00916C58 /* Model */,
+				6BE0AF691CA949FB00916C58 /* NetManager */,
+				6BE0AF6A1CA949FB00916C58 /* Resource */,
+				6BE0AF6B1CA949FB00916C58 /* Vendor */,
+				6BE0AF6C1CA949FB00916C58 /* View */,
+				6BE0AF6D1CA949FB00916C58 /* ViewController */,
+				6BE0AF741CA949FB00916C58 /* ViewModel */,
+				6BE0AF311CA9492C00916C58 /* Supporting Files */,
+			);
+			path = "Elves bookcase";
+			sourceTree = "<group>";
+		};
+		6BE0AF311CA9492C00916C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF421CA9492D00916C58 /* Info.plist */,
+				6BE0AF321CA9492C00916C58 /* main.m */,
+				6B8FA9171CA9592F00EECDD1 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BE0AF4A1CA9492D00916C58 /* Elves bookcaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF4B1CA9492D00916C58 /* Elves_bookcaseTests.m */,
+				6BE0AF4D1CA9492D00916C58 /* Info.plist */,
+			);
+			path = "Elves bookcaseTests";
+			sourceTree = "<group>";
+		};
+		6BE0AF551CA9492D00916C58 /* Elves bookcaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF561CA9492D00916C58 /* Elves_bookcaseUITests.m */,
+				6BE0AF581CA9492D00916C58 /* Info.plist */,
+			);
+			path = "Elves bookcaseUITests";
+			sourceTree = "<group>";
+		};
+		6BE0AF641CA949FB00916C58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B23381CB6178B002A80D4 /* NSObject+LDNetWorking.h */,
+				6B8B23391CB6178B002A80D4 /* NSObject+LDNetWorking.m */,
+				6B8B233B1CB628D8002A80D4 /* NSObject+LDParse.h */,
+				6B8B233C1CB628D8002A80D4 /* NSObject+LDParse.m */,
+				6B7A5C8D1CB787C4004AD7D1 /* UIScrollView+LDRefresh.h */,
+				6B7A5C8E1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m */,
+				6B7A5C9C1CB7B132004AD7D1 /* UIView+LDHUD.h */,
+				6B7A5C9D1CB7B132004AD7D1 /* UIView+LDHUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6BE0AF671CA949FB00916C58 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				6B8FA9161CA958F200EECDD1 /* Constants.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		6BE0AF681CA949FB00916C58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B9FAD8B1CB52FF4002AC8F4 /* LDBookListModel.h */,
+				6B9FAD8C1CB52FF4002AC8F4 /* LDBookListModel.m */,
+				6B9FAD8E1CB5304D002AC8F4 /* LDBookDetailsModel.h */,
+				6B9FAD8F1CB5304D002AC8F4 /* LDBookDetailsModel.m */,
+				6BD0EFD61CBE47C300A1B0CB /* LDBookcaseModel.h */,
+				6BD0EFD71CBE47C300A1B0CB /* LDBookcaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BE0AF691CA949FB00916C58 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B23351CB610EF002A80D4 /* LDNetManager.h */,
+				6B8B23361CB610EF002A80D4 /* LDNetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		6BE0AF6A1CA949FB00916C58 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF3A1CA9492D00916C58 /* Main.storyboard */,
+				6BE0AF3D1CA9492D00916C58 /* Assets.xcassets */,
+				6BE0AF3F1CA9492D00916C58 /* LaunchScreen.storyboard */,
+				6B6980101CBCC2DD00FCB766 /* BookClass.plist */,
+				6B6980121CBCE58F00FCB766 /* AllBooksID.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6BE0AF6B1CA949FB00916C58 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		6BE0AF6C1CA949FB00916C58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B00B8A91CB3E8F700C0B1B9 /* LDSearchBookCell.h */,
+				6B00B8AA1CB3E8F700C0B1B9 /* LDSearchBookCell.m */,
+				6B7A5C931CB79238004AD7D1 /* LDBookClassCell.h */,
+				6B7A5C941CB79238004AD7D1 /* LDBookClassCell.m */,
+				6B7A5C961CB79756004AD7D1 /* LDBookcaseCell.h */,
+				6B7A5C971CB79756004AD7D1 /* LDBookcaseCell.m */,
+				6BFB27581CC625D7000C5A99 /* LDBookDirectoryCell.h */,
+				6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BE0AF6D1CA949FB00916C58 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BE0AF6E1CA949FB00916C58 /* LDNaviViewController.h */,
+				6BE0AF6F1CA949FB00916C58 /* LDNaviViewController.m */,
+				6BE0AF721CA949FB00916C58 /* LDTabBarViewController.h */,
+				6BE0AF731CA949FB00916C58 /* LDTabBarViewController.m */,
+				6B00B7BA1CAE438C00C0B1B9 /* 搜书 */,
+				6B00B7B91CAE438500C0B1B9 /* 书城 */,
+				6B00B7B81CAE436B00C0B1B9 /* 书柜 */,
+				6B8DEBDB1CBBC5FF00416A27 /* 书籍详情 */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6BE0AF741CA949FB00916C58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B233E1CB683CA002A80D4 /* LDBookListViewModel.h */,
+				6B8B233F1CB683CA002A80D4 /* LDBookListViewModel.m */,
+				6B69800B1CBC833900FCB766 /* LDBookDetailsViewModel.h */,
+				6B69800C1CBC833900FCB766 /* LDBookDetailsViewModel.m */,
+				6BD0EFD31CBDE34500A1B0CB /* LDBookcaseViewModel.h */,
+				6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */,
+				6BFB27551CC619A4000C5A99 /* LDBookDirectoryViewModel.h */,
+				6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE0AF2D1CA9492C00916C58 /* Elves bookcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE0AF5B1CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcase" */;
+			buildPhases = (
+				CEECB5DDB107D018976AE437 /* Check Pods Manifest.lock */,
+				6BE0AF2A1CA9492C00916C58 /* Sources */,
+				6BE0AF2B1CA9492C00916C58 /* Frameworks */,
+				6BE0AF2C1CA9492C00916C58 /* Resources */,
+				F543A01CFD761E5E82B65D04 /* Embed Pods Frameworks */,
+				280BA6B374991042EEFDDEF3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elves bookcase";
+			productName = "Elves bookcase";
+			productReference = 6BE0AF2E1CA9492C00916C58 /* Elves bookcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BE0AF461CA9492D00916C58 /* Elves bookcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE0AF5E1CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcaseTests" */;
+			buildPhases = (
+				6BE0AF431CA9492D00916C58 /* Sources */,
+				6BE0AF441CA9492D00916C58 /* Frameworks */,
+				6BE0AF451CA9492D00916C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE0AF491CA9492D00916C58 /* PBXTargetDependency */,
+			);
+			name = "Elves bookcaseTests";
+			productName = "Elves bookcaseTests";
+			productReference = 6BE0AF471CA9492D00916C58 /* Elves bookcaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BE0AF511CA9492D00916C58 /* Elves bookcaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE0AF611CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcaseUITests" */;
+			buildPhases = (
+				6BE0AF4E1CA9492D00916C58 /* Sources */,
+				6BE0AF4F1CA9492D00916C58 /* Frameworks */,
+				6BE0AF501CA9492D00916C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE0AF541CA9492D00916C58 /* PBXTargetDependency */,
+			);
+			name = "Elves bookcaseUITests";
+			productName = "Elves bookcaseUITests";
+			productReference = 6BE0AF521CA9492D00916C58 /* Elves bookcaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE0AF261CA9492C00916C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiDing;
+				TargetAttributes = {
+					6BE0AF2D1CA9492C00916C58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V9U62K5KE8;
+					};
+					6BE0AF461CA9492D00916C58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6BE0AF2D1CA9492C00916C58;
+					};
+					6BE0AF511CA9492D00916C58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6BE0AF2D1CA9492C00916C58;
+					};
+				};
+			};
+			buildConfigurationList = 6BE0AF291CA9492C00916C58 /* Build configuration list for PBXProject "Elves bookcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE0AF251CA9492C00916C58;
+			productRefGroup = 6BE0AF2F1CA9492C00916C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE0AF2D1CA9492C00916C58 /* Elves bookcase */,
+				6BE0AF461CA9492D00916C58 /* Elves bookcaseTests */,
+				6BE0AF511CA9492D00916C58 /* Elves bookcaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE0AF2C1CA9492C00916C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE0AF411CA9492D00916C58 /* LaunchScreen.storyboard in Resources */,
+				6B6980131CBCE58F00FCB766 /* AllBooksID.plist in Resources */,
+				6BE0AF3E1CA9492D00916C58 /* Assets.xcassets in Resources */,
+				6B6980111CBCC2DD00FCB766 /* BookClass.plist in Resources */,
+				6BE0AF3C1CA9492D00916C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF451CA9492D00916C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF501CA9492D00916C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		280BA6B374991042EEFDDEF3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEECB5DDB107D018976AE437 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F543A01CFD761E5E82B65D04 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE0AF2A1CA9492C00916C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE0AF781CA949FB00916C58 /* LDTabBarViewController.m in Sources */,
+				6B7A5C981CB79756004AD7D1 /* LDBookcaseCell.m in Sources */,
+				6BE0AF361CA9492C00916C58 /* AppDelegate.m in Sources */,
+				6B00B8AB1CB3E8F700C0B1B9 /* LDSearchBookCell.m in Sources */,
+				6B69800D1CBC833900FCB766 /* LDBookDetailsViewModel.m in Sources */,
+				6BDE07D21CC4D39A0021EE3F /* LDPageContentViewController.m in Sources */,
+				6BFB275A1CC625D7000C5A99 /* LDBookDirectoryCell.m in Sources */,
+				6B8B233D1CB628D8002A80D4 /* NSObject+LDParse.m in Sources */,
+				6B9FAD901CB5304D002AC8F4 /* LDBookDetailsModel.m in Sources */,
+				6B8B23401CB683CA002A80D4 /* LDBookListViewModel.m in Sources */,
+				6B8FA9141CA954BA00EECDD1 /* LDBookcaseTableViewController.m in Sources */,
+				6B00B8931CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m in Sources */,
+				6B00B80A1CB3803D00C0B1B9 /* LDBookstoreTableViewController.m in Sources */,
+				6BD0EFD51CBDE34500A1B0CB /* LDBookcaseViewModel.m in Sources */,
+				6B7A5C9E1CB7B132004AD7D1 /* UIView+LDHUD.m in Sources */,
+				6B02EF1B1CC0BFDD00A66B23 /* LDReadMainViewController.m in Sources */,
+				6BDE07D51CC4D3EC0021EE3F /* pagingContent.m in Sources */,
+				6B9FAD8D1CB52FF4002AC8F4 /* LDBookListModel.m in Sources */,
+				6B8DEBE11CBBCFF900416A27 /* LDBookDetailsViewController.m in Sources */,
+				6BFB27571CC619A4000C5A99 /* LDBookDirectoryViewModel.m in Sources */,
+				6B7A5C8F1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m in Sources */,
+				6BE0AF761CA949FB00916C58 /* LDNaviViewController.m in Sources */,
+				6B8B233A1CB6178B002A80D4 /* NSObject+LDNetWorking.m in Sources */,
+				6B7A5C9B1CB79F27004AD7D1 /* LDBookClassTableViewController.m in Sources */,
+				6B7A5C951CB79238004AD7D1 /* LDBookClassCell.m in Sources */,
+				6BD0EFD81CBE47C300A1B0CB /* LDBookcaseModel.m in Sources */,
+				6BE0AF331CA9492C00916C58 /* main.m in Sources */,
+				6B8B23371CB610EF002A80D4 /* LDNetManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF431CA9492D00916C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE0AF4C1CA9492D00916C58 /* Elves_bookcaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE0AF4E1CA9492D00916C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE0AF571CA9492D00916C58 /* Elves_bookcaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE0AF491CA9492D00916C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE0AF2D1CA9492C00916C58 /* Elves bookcase */;
+			targetProxy = 6BE0AF481CA9492D00916C58 /* PBXContainerItemProxy */;
+		};
+		6BE0AF541CA9492D00916C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE0AF2D1CA9492C00916C58 /* Elves bookcase */;
+			targetProxy = 6BE0AF531CA9492D00916C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BE0AF3A1CA9492D00916C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE0AF3B1CA9492D00916C58 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6BE0AF3F1CA9492D00916C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE0AF401CA9492D00916C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE0AF591CA9492D00916C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BE0AF5A1CA9492D00916C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE0AF5C1CA9492D00916C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA177C8234C5E176EE10AFF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Elves bookcase/PrefixHeader.pch";
+				INFOPLIST_FILE = "Elves bookcase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ElvesBookcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "18923d9c-9b94-4a6e-a90a-12638d0a7030";
+			};
+			name = Debug;
+		};
+		6BE0AF5D1CA9492D00916C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792290C83EBE6DF2C9BBC975 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Elves bookcase/PrefixHeader.pch";
+				INFOPLIST_FILE = "Elves bookcase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ElvesBookcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "18923d9c-9b94-4a6e-a90a-12638d0a7030";
+			};
+			name = Release;
+		};
+		6BE0AF5F1CA9492D00916C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Elves bookcaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elves bookcase.app/Elves bookcase";
+			};
+			name = Debug;
+		};
+		6BE0AF601CA9492D00916C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Elves bookcaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elves bookcase.app/Elves bookcase";
+			};
+			name = Release;
+		};
+		6BE0AF621CA9492D00916C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Elves bookcaseUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Elves bookcase";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6BE0AF631CA9492D00916C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Elves bookcaseUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Elves bookcase";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE0AF291CA9492C00916C58 /* Build configuration list for PBXProject "Elves bookcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0AF591CA9492D00916C58 /* Debug */,
+				6BE0AF5A1CA9492D00916C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE0AF5B1CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0AF5C1CA9492D00916C58 /* Debug */,
+				6BE0AF5D1CA9492D00916C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE0AF5E1CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0AF5F1CA9492D00916C58 /* Debug */,
+				6BE0AF601CA9492D00916C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE0AF611CA9492D00916C58 /* Build configuration list for PBXNativeTarget "Elves bookcaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE0AF621CA9492D00916C58 /* Debug */,
+				6BE0AF631CA9492D00916C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE0AF261CA9492C00916C58 /* Project object */;
+}

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  Elves bookcase
+//
+//  Created by LD on 16/3/28.
+//  Copyright © 2016年 LiDing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Constants.h"
+
+#import <AFNetworking.h>
+
+#import <YYKit.h>
+
+#import "NSObject+LDNetWorking.h"
+
+#import "NSObject+LDParse.h"
+
+#import "UIScrollView+LDRefresh.h"
+
+#import "UIView+LDHUD.h"
+
+#ifdef DEBUG
+    #define MYLog(...) NSLog(__VA_ARGS__)
+#else
+    #define MYLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */

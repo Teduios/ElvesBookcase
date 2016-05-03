@@ -32,6 +32,7 @@
 
 //点中某行执行
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+<<<<<<< HEAD
     //检查是否打开了网络
     LDDetectNetwork *network = [[LDDetectNetwork alloc]init];
     if (![network NetworkIsAvailable]) {
@@ -39,6 +40,8 @@
         return;
     }
     
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
     [self performSegueWithIdentifier:@"goBookstore" sender:indexPath];
 }
 

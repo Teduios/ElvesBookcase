@@ -48,6 +48,7 @@
 #pragma mark - UIPageViewControllerDataSource
 //返回上一页自动调用
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController {
+<<<<<<< HEAD
     //关闭用户交互
     self.view.userInteractionEnabled = NO;
     //用多线程延时0.5秒，再打开用户交互
@@ -55,6 +56,8 @@
         self.view.userInteractionEnabled = YES;
     });
     
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
     NSUInteger index = ((LDPageContentViewController *)viewController).pageIndex;
     if ((index == 0)||(index == NSNotFound)) {
         [self.view showWarning:@"已经是第一页了"];
@@ -66,6 +69,7 @@
 //去下一页自动调用
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
+<<<<<<< HEAD
     //关闭用户交互
     self.view.userInteractionEnabled = NO;
     //用多线程延时0.5秒，再打开用户交互
@@ -73,6 +77,8 @@
         self.view.userInteractionEnabled = YES;
     });
     
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
     NSUInteger index = ((LDPageContentViewController *) viewController).pageIndex;
     
     if (index == NSNotFound) {

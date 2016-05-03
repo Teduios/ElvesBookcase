@@ -23,14 +23,20 @@
 		6B8B233A1CB6178B002A80D4 /* NSObject+LDNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B23391CB6178B002A80D4 /* NSObject+LDNetWorking.m */; };
 		6B8B233D1CB628D8002A80D4 /* NSObject+LDParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B233C1CB628D8002A80D4 /* NSObject+LDParse.m */; };
 		6B8B23401CB683CA002A80D4 /* LDBookListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B233F1CB683CA002A80D4 /* LDBookListViewModel.m */; };
+<<<<<<< HEAD
 		6B8B40C51CD0993B00FB9CCD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B40C41CD0993B00FB9CCD /* Reachability.m */; };
 		6B8B40C81CD09B0700FB9CCD /* LDDetectNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B40C71CD09B0700FB9CCD /* LDDetectNetwork.m */; };
 		6B8B40CA1CD0A04C00FB9CCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B40C91CD0A04C00FB9CCD /* SystemConfiguration.framework */; };
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		6B8DEBE11CBBCFF900416A27 /* LDBookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DEBE01CBBCFF900416A27 /* LDBookDetailsViewController.m */; };
 		6B8FA9141CA954BA00EECDD1 /* LDBookcaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FA9131CA954BA00EECDD1 /* LDBookcaseTableViewController.m */; };
 		6B9FAD8D1CB52FF4002AC8F4 /* LDBookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FAD8C1CB52FF4002AC8F4 /* LDBookListModel.m */; };
 		6B9FAD901CB5304D002AC8F4 /* LDBookDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FAD8F1CB5304D002AC8F4 /* LDBookDetailsModel.m */; };
+<<<<<<< HEAD
 		6BBF09EF1CCF8A4700831063 /* LDParserXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF09EE1CCF8A4700831063 /* LDParserXML.m */; };
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		6BD0EFD51CBDE34500A1B0CB /* LDBookcaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */; };
 		6BD0EFD81CBE47C300A1B0CB /* LDBookcaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0EFD71CBE47C300A1B0CB /* LDBookcaseModel.m */; };
 		6BDE07D21CC4D39A0021EE3F /* LDPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE07D11CC4D39A0021EE3F /* LDPageContentViewController.m */; };
@@ -44,6 +50,11 @@
 		6BE0AF571CA9492D00916C58 /* Elves_bookcaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF561CA9492D00916C58 /* Elves_bookcaseUITests.m */; };
 		6BE0AF761CA949FB00916C58 /* LDNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF6F1CA949FB00916C58 /* LDNaviViewController.m */; };
 		6BE0AF781CA949FB00916C58 /* LDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0AF731CA949FB00916C58 /* LDTabBarViewController.m */; };
+<<<<<<< HEAD
+=======
+		6BFB27571CC619A4000C5A99 /* LDBookDirectoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */; };
+		6BFB275A1CC625D7000C5A99 /* LDBookDirectoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */; };
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		8701D76C04D5C9343278F0E9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 409C143E555CF6D44F753494 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -96,11 +107,14 @@
 		6B8B233C1CB628D8002A80D4 /* NSObject+LDParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LDParse.m"; sourceTree = "<group>"; };
 		6B8B233E1CB683CA002A80D4 /* LDBookListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookListViewModel.h; sourceTree = "<group>"; };
 		6B8B233F1CB683CA002A80D4 /* LDBookListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookListViewModel.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6B8B40C31CD0993B00FB9CCD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		6B8B40C41CD0993B00FB9CCD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		6B8B40C61CD09B0700FB9CCD /* LDDetectNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDetectNetwork.h; sourceTree = "<group>"; };
 		6B8B40C71CD09B0700FB9CCD /* LDDetectNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDetectNetwork.m; sourceTree = "<group>"; };
 		6B8B40C91CD0A04C00FB9CCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		6B8DEBDF1CBBCFF900416A27 /* LDBookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDetailsViewController.h; sourceTree = "<group>"; };
 		6B8DEBE01CBBCFF900416A27 /* LDBookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDetailsViewController.m; sourceTree = "<group>"; };
 		6B8FA9121CA954BA00EECDD1 /* LDBookcaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseTableViewController.h; sourceTree = "<group>"; };
@@ -111,8 +125,11 @@
 		6B9FAD8C1CB52FF4002AC8F4 /* LDBookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookListModel.m; sourceTree = "<group>"; };
 		6B9FAD8E1CB5304D002AC8F4 /* LDBookDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDetailsModel.h; sourceTree = "<group>"; };
 		6B9FAD8F1CB5304D002AC8F4 /* LDBookDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDetailsModel.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6BBF09ED1CCF8A4700831063 /* LDParserXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDParserXML.h; sourceTree = "<group>"; };
 		6BBF09EE1CCF8A4700831063 /* LDParserXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDParserXML.m; sourceTree = "<group>"; };
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		6BD0EFD31CBDE34500A1B0CB /* LDBookcaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseViewModel.h; sourceTree = "<group>"; };
 		6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookcaseViewModel.m; sourceTree = "<group>"; };
 		6BD0EFD61CBE47C300A1B0CB /* LDBookcaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookcaseModel.h; sourceTree = "<group>"; };
@@ -139,6 +156,13 @@
 		6BE0AF6F1CA949FB00916C58 /* LDNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNaviViewController.m; sourceTree = "<group>"; };
 		6BE0AF721CA949FB00916C58 /* LDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabBarViewController.h; sourceTree = "<group>"; };
 		6BE0AF731CA949FB00916C58 /* LDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabBarViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		6BFB27551CC619A4000C5A99 /* LDBookDirectoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDirectoryViewModel.h; sourceTree = "<group>"; };
+		6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDirectoryViewModel.m; sourceTree = "<group>"; };
+		6BFB27581CC625D7000C5A99 /* LDBookDirectoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBookDirectoryCell.h; sourceTree = "<group>"; };
+		6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBookDirectoryCell.m; sourceTree = "<group>"; };
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 		792290C83EBE6DF2C9BBC975 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DFA177C8234C5E176EE10AFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,7 +172,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				6B8B40CA1CD0A04C00FB9CCD /* SystemConfiguration.framework in Frameworks */,
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				8701D76C04D5C9343278F0E9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,7 +209,10 @@
 		108EB253F0AD7F84EE133A3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				6B8B40C91CD0A04C00FB9CCD /* SystemConfiguration.framework */,
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				409C143E555CF6D44F753494 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -223,10 +253,13 @@
 			children = (
 				6BDE07D31CC4D3EC0021EE3F /* pagingContent.h */,
 				6BDE07D41CC4D3EC0021EE3F /* pagingContent.m */,
+<<<<<<< HEAD
 				6BBF09ED1CCF8A4700831063 /* LDParserXML.h */,
 				6BBF09EE1CCF8A4700831063 /* LDParserXML.m */,
 				6B8B40C61CD09B0700FB9CCD /* LDDetectNetwork.h */,
 				6B8B40C71CD09B0700FB9CCD /* LDDetectNetwork.m */,
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -381,8 +414,11 @@
 		6BE0AF6B1CA949FB00916C58 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				6B8B40C31CD0993B00FB9CCD /* Reachability.h */,
 				6B8B40C41CD0993B00FB9CCD /* Reachability.m */,
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -396,6 +432,11 @@
 				6B7A5C941CB79238004AD7D1 /* LDBookClassCell.m */,
 				6B7A5C961CB79756004AD7D1 /* LDBookcaseCell.h */,
 				6B7A5C971CB79756004AD7D1 /* LDBookcaseCell.m */,
+<<<<<<< HEAD
+=======
+				6BFB27581CC625D7000C5A99 /* LDBookDirectoryCell.h */,
+				6BFB27591CC625D7000C5A99 /* LDBookDirectoryCell.m */,
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -424,6 +465,11 @@
 				6B69800C1CBC833900FCB766 /* LDBookDetailsViewModel.m */,
 				6BD0EFD31CBDE34500A1B0CB /* LDBookcaseViewModel.h */,
 				6BD0EFD41CBDE34500A1B0CB /* LDBookcaseViewModel.m */,
+<<<<<<< HEAD
+=======
+				6BFB27551CC619A4000C5A99 /* LDBookDirectoryViewModel.h */,
+				6BFB27561CC619A4000C5A99 /* LDBookDirectoryViewModel.m */,
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -618,6 +664,7 @@
 				6BE0AF361CA9492C00916C58 /* AppDelegate.m in Sources */,
 				6B00B8AB1CB3E8F700C0B1B9 /* LDSearchBookCell.m in Sources */,
 				6B69800D1CBC833900FCB766 /* LDBookDetailsViewModel.m in Sources */,
+<<<<<<< HEAD
 				6B8B40C81CD09B0700FB9CCD /* LDDetectNetwork.m in Sources */,
 				6BDE07D21CC4D39A0021EE3F /* LDPageContentViewController.m in Sources */,
 				6B8B233D1CB628D8002A80D4 /* NSObject+LDParse.m in Sources */,
@@ -625,6 +672,13 @@
 				6B9FAD901CB5304D002AC8F4 /* LDBookDetailsModel.m in Sources */,
 				6B8B23401CB683CA002A80D4 /* LDBookListViewModel.m in Sources */,
 				6B8B40C51CD0993B00FB9CCD /* Reachability.m in Sources */,
+=======
+				6BDE07D21CC4D39A0021EE3F /* LDPageContentViewController.m in Sources */,
+				6BFB275A1CC625D7000C5A99 /* LDBookDirectoryCell.m in Sources */,
+				6B8B233D1CB628D8002A80D4 /* NSObject+LDParse.m in Sources */,
+				6B9FAD901CB5304D002AC8F4 /* LDBookDetailsModel.m in Sources */,
+				6B8B23401CB683CA002A80D4 /* LDBookListViewModel.m in Sources */,
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				6B8FA9141CA954BA00EECDD1 /* LDBookcaseTableViewController.m in Sources */,
 				6B00B8931CB3DCB100C0B1B9 /* LDSearchBookTableViewController.m in Sources */,
 				6B00B80A1CB3803D00C0B1B9 /* LDBookstoreTableViewController.m in Sources */,
@@ -634,6 +688,10 @@
 				6BDE07D51CC4D3EC0021EE3F /* pagingContent.m in Sources */,
 				6B9FAD8D1CB52FF4002AC8F4 /* LDBookListModel.m in Sources */,
 				6B8DEBE11CBBCFF900416A27 /* LDBookDetailsViewController.m in Sources */,
+<<<<<<< HEAD
+=======
+				6BFB27571CC619A4000C5A99 /* LDBookDirectoryViewModel.m in Sources */,
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				6B7A5C8F1CB787C4004AD7D1 /* UIScrollView+LDRefresh.m in Sources */,
 				6BE0AF761CA949FB00916C58 /* LDNaviViewController.m in Sources */,
 				6B8B233A1CB6178B002A80D4 /* NSObject+LDNetWorking.m in Sources */,
@@ -788,7 +846,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Elves bookcase/PrefixHeader.pch";
 				INFOPLIST_FILE = "Elves bookcase/Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ElvesBookcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -806,7 +868,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Elves bookcase/PrefixHeader.pch";
 				INFOPLIST_FILE = "Elves bookcase/Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.ElvesBookcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -819,6 +885,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Elves bookcaseTests/Info.plist";
+<<<<<<< HEAD
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -831,6 +901,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Elves bookcaseTests/Info.plist";
+<<<<<<< HEAD
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -842,6 +916,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Elves bookcaseUITests/Info.plist";
+<<<<<<< HEAD
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -854,6 +932,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Elves bookcaseUITests/Info.plist";
+<<<<<<< HEAD
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.ld.Elves-bookcaseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

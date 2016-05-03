@@ -56,7 +56,10 @@
     return self.bookcaseVM.allBook.count;
 }
 
+<<<<<<< HEAD
 //每行cell显示什么内容
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LDBookcaseCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BookcaseCell" forIndexPath:indexPath];
     cell.iconImageView.image = [self.bookcaseVM iconImageForIndex:indexPath.row];
@@ -65,7 +68,11 @@
     
     return cell;
 }
+<<<<<<< HEAD
 //编辑状态下执行
+=======
+
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         //删除沙盒中的文件

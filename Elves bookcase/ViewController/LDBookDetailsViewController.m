@@ -8,7 +8,10 @@
 
 #import "LDBookDetailsViewController.h"
 #import "LDBookDetailsViewModel.h"
+<<<<<<< HEAD
 #import "LDParserXML.h"
+=======
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
 
 @interface LDBookDetailsViewController ()
 
@@ -69,6 +72,7 @@
     
     for (NSInteger i = 0; i < num; i++) {
         //获取章节标题
+<<<<<<< HEAD
         NSString *title = [NSString stringWithFormat:@"第%ld节:%@",i+1,self.bookDetailsViewModel.bookDetailsList[count].title];
         NSData *titleData = [title dataUsingEncoding:NSUTF8StringEncoding];
         //添加到data中
@@ -83,6 +87,17 @@
         NSData *parserChapterData = [chapterStr dataUsingEncoding:NSUTF8StringEncoding];
         //添加到parserChapterData中
         [data appendData:parserChapterData];
+=======
+        NSString *title = [NSString stringWithFormat:@"\n第%ld节:%@\n",i+1,self.bookDetailsViewModel.bookDetailsList[count].title];
+        NSData *titleData = [title dataUsingEncoding:NSUTF8StringEncoding];
+        //添加到data中
+        [data appendData:titleData];
+        //获取章节内容
+        NSString *chapters = self.bookDetailsViewModel.bookDetailsList[count].message;
+        NSData *chaptersData = [chapters dataUsingEncoding:NSUTF8StringEncoding];
+        //添加到data中
+        [data appendData:chaptersData];
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
         count--;
         
         //添加章节目录到字典中

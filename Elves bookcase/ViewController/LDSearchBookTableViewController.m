@@ -27,6 +27,7 @@
     //结束当前编辑状态 收起键盘
     [self.searchBar resignFirstResponder];
 }
+<<<<<<< HEAD
 //点中搜索按键
 - (IBAction)searchBookClick:(id)sender {
     //结束当前编辑状态 收起键盘
@@ -37,6 +38,12 @@
         [self.view showWarning:@"请打开网络后再试"];
         return;
     }
+=======
+
+- (IBAction)searchBookClick:(id)sender {
+    //结束当前编辑状态 收起键盘
+    [self.searchBar resignFirstResponder];
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
     //显示忙提示
     [self.view showBusyHUD];
     //通过bookID搜索书籍

@@ -25,10 +25,16 @@
 @implementation LDPageContentViewController
 
 #pragma mark - 方法
+<<<<<<< HEAD
 //主题背景
 - (IBAction)themeBtn:(UIButton *)sender {
     BOOL isColor = NO;
     NSString *imageName = [NSString stringWithFormat:@"read_bg_%ld",sender.tag];
+=======
+- (IBAction)themeBtn:(UIButton *)sender {
+    BOOL isColor = NO;
+    NSString *imageName = [NSString stringWithFormat:@"read_bg_%ld",(long)sender.tag];
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
     self.bgImageView.image = [UIImage imageNamed:imageName];
     if (sender.tag == 3) {
         isColor = YES;
@@ -60,7 +66,11 @@
         self.topViewConstraint.constant = 0;
         self.buttomViewConstraint.constant = 0;
     }else {
+<<<<<<< HEAD
         self.topViewConstraint.constant = -80;
+=======
+        self.topViewConstraint.constant = -60;
+>>>>>>> c4602e229b093ca6941f64069653cd1757a4969c
         self.buttomViewConstraint.constant = -100;
     }
     isResult = !isResult;
